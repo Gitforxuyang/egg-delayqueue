@@ -18,14 +18,14 @@ interface EggAmqpFun {
     (str: string): amqp.Connection
 }
 
-interface EggAmqpGet {
+interface EggAmqpGet extends amqp.Connection {
     get: EggAmqpFun
 }
 
 declare module 'egg' {
     // extend app
     interface Application {
-        delayqueue: EggAmqpGet
+        delayqueue: EggAmqpGet;
     }
 
     // extend your config
