@@ -1,6 +1,6 @@
 {
   "name": "egg-delayqueue",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "基于rabbitmq的延时队列中间件",
   "eggPlugin": {
     "name": "delayqueue"
