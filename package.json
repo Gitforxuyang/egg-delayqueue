@@ -1,7 +1,7 @@
 {
   "name": "egg-delayqueue",
-  "version": "1.1.4",
-  "description": "基于rabbitmq的延时队列中间件",
+  "version": "2.0.1",
+  "description": "全新的rabbitmq",
   "eggPlugin": {
     "name": "delayqueue"
   },
@@ -11,6 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
+    "@types/amqplib": "^0.5.9",
     "amqplib": "^0.5.5",
     "bluebird": "^3.5.5"
   },
