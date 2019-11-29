@@ -1,7 +1,7 @@
 {
   "name": "egg-delayqueue",
-  "version": "2.1.5",
-  "description": "全新的rabbitmq",
+  "version": "2.2.0",
+  "description": "为了兼容不同的host能创建queue修改",
   "eggPlugin": {
     "name": "delayqueue"
   },
