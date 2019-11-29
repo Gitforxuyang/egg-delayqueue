@@ -1,7 +1,7 @@
 {
   "name": "egg-delayqueue",
-  "version": "2.2.0",
-  "description": "为了兼容不同的host能创建queue修改",
+  "version": "2.2.1",
+  "description": "修复bug",
   "eggPlugin": {
     "name": "delayqueue"
   },
